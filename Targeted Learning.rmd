@@ -2,7 +2,20 @@
 title: "Targeted Learning"
 output: html_document
 date: "2025-09-28"
+source: tlverse.org/catalyst2024-workshop
 ---
+## Install tlverse software
+
+```{r}
+install.packages("devtools")
+
+#install all tlverse packages
+devtools::install_github("tlverse/tlverse")
+
+#Install a specific package (example)
+```
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
